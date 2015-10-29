@@ -51,9 +51,7 @@
 				 </shiro:hasPermission>
 	           </ul>
 	           <ul class="nav pull-right">
-	           <!-- 
 				 <li><a href="${pageContext.request.contextPath}${fns:getFrontPath()}/index-${fnc:getCurrentSiteId()}.html" target="_blank" title="访问网站主页"><i class="icon-home"></i></a></li>
-	            -->
 			  	 <li id="themeSwitch" class="dropdown">
 			       	<a class="dropdown-toggle" data-toggle="dropdown" href="#" title="主题切换"><i class="icon-th-large"></i></a>
 				    <ul class="dropdown-menu">
@@ -74,7 +72,6 @@
 	         </div><!--/.nav-collapse -->
 	      </div>
 	    </div>
-	    
 	    <div class="container-fluid">
 			<div id="content" class="row-fluid">
 				<div id="left">
@@ -87,9 +84,8 @@
 						scrolling="yes" frameborder="no" width="100%" height="650"></iframe>
 				</div>
 			</div>
-			<!-- 暂时移除foot -->
 		    <div id="footer" class="row-fluid">
-	            Copyright &copy; 2012-${fns:getConfig('copyrightYear')} ${fns:getConfig('productName')} - Powered By <a href="#" target="_blank">xzcen soft</a> ${fns:getConfig('version')}
+	            Copyright &copy; 2012-${fns:getConfig('copyrightYear')} ${fns:getConfig('productName')} - Powered By <a href="https://github.com/thinkgem/jeesite" target="_blank">JeeSite</a> ${fns:getConfig('version')}
 			</div>
 		</div>
 	</div>

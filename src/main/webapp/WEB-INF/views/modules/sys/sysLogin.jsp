@@ -47,7 +47,7 @@
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </a>
-          <a class="brand" href="${ctx}"><img src="${ctxStatic}/images/logo.png" alt="Jeesite Admin" style="height:40px;"></a>
+          <a class="brand" href="${ctx}"><img src="${ctxStatic}/images/logo.png" alt="XZCEN Admin" style="height:40px;"></a>
         </div>
       </div>
     </div>
@@ -96,7 +96,7 @@
         </div>
     </div>
     <footer class="white navbar-fixed-bottom">
-		Copyright &copy; 2012-${fns:getConfig('copyrightYear')} <a href="${pageContext.request.contextPath}${fns:getFrontPath()}">${fns:getConfig('productName')}</a> - Powered By <a href="https://github.com/thinkgem/jeesite" target="_blank">JeeSite</a> ${fns:getConfig('version')}
+		Copyright &copy; 2012-${fns:getConfig('copyrightYear')} <a href="${pageContext.request.contextPath}${fns:getFrontPath()}">${fns:getConfig('productName')}</a> - Powered By <a href="#" target="_blank">xzcen soft</a> ${fns:getConfig('version')}
     </footer>
   </body>
 </html>

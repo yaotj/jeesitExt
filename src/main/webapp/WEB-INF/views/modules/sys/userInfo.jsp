@@ -3,7 +3,7 @@
 <html>
 <head>
 	<title>个人信息</title>
-	<meta name="decorator" content="default"/>
+	<meta name="decorator" content="xzcensoft"/>
 	<script type="text/javascript">
 		$(document).ready(function() {
 			$("#inputForm").validate({
